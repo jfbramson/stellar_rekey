@@ -8,14 +8,15 @@
 </head>
 <body>
   <h1>Stellar Rekey </h1>
+ <p> Stellar Rekey will move all assets from Source Account to Destination Account, Note: the keys are NOT saved in this app, you must copy paste the destination Seed into another wallet or safe storage to use in the future. you should also try it in testnet mode before using real accounts with true value </p>
   <h3>TX Status: <span id="tx_status" ></span> </h3><br /> 
 <select name="network" id="network" value='testnet'>   
   <option>testnet</option>
   <option>live_public</option>
 </select> <br />   
 <br /><input id="update_balance" type="button" value="update_balance" /><br />
-Source Seed:<input id="source_seed" size="65" /><br />
-Source Account:<input id="source_account" size="65" /><br />
+Source Seed:<input id="source_seed" size="70" /><br />
+Source Account:<input id="source_account" size="70" /><br />
 Source Account native balance: <span id="source_balance" ></span><br />
 ______________________________________________________________<br />
 Send Transaction Info: <br />
@@ -23,8 +24,8 @@ Send Transaction Info: <br />
   <input id="gen_random_dest" type="button" value="gen_random" />
   <input id="swap_keys" type="button" value="swap_source_destination" /><br />
 
-Destination Seed:<input id="dest_seed" size="65" /><br />
-Destination Account:<input id="dest_account" size="65" /><br />
+Destination Seed:<input id="dest_seed" size="70" /><br />
+Destination Account:<input id="dest_account" size="70" /><br />
 Destination Account Native balance: <span id="dest_balance" ></span><br />
 
 </body>
